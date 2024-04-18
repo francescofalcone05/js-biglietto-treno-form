@@ -26,8 +26,8 @@
                     <div class="col-4">
                         <div class="box">
                             <div>
-                                <label class="mb-1" for="user-details">Nome e Cognome</label><br>
-                                <input id="user-details" type="text" >
+                                <label class="mb-1" for="fname">Nome e Cognome</label><br>
+                                <input id="fname" type="text" name="fname" required>                            
                             </div>
                         </div>
                     </div>
@@ -35,7 +35,7 @@
                         <div class="box">
                             <div>
                                 <label class="mb-1" for="km-todo">Km da percorrere</label><br>
-                                <input id="km-todo" type="text">
+                                <input id="km-todo" type="text" name="km-todo" required>                            
                             </div>
                         </div>
                     </div>
@@ -56,8 +56,8 @@
                 <div class="row text-center">
                     <div class="col-12">
                         <div class="box">
-                            <button type="button" class="m-3 btn btn-success">Genera</button>
-                            <button type="button" class="m-3 btn btn-danger">Annulla</button>
+                            <button id="send" type="button" class="m-3 btn btn-success">Genera</button>
+                            <button id="canc" type="button" class="m-3 btn btn-danger">Annulla</button>
                         </div>
                     </div>
                 </div>
