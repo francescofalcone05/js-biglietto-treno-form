@@ -1,0 +1,41 @@
+/*************** COMMON/CONTAINER *****************/
+
+.my_h{
+    min-height: 7rem;
+}
+
+
+/************* HEADER *************/
+
+
+
+
+
+/************* MAIN *************/
+
+
+
+
+
+/************* FOOTER *************/
+
+
+
+
+
+/************* RESPONSIVE *************/
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 768px) {
+ 
+}
+
+@media screen and (max-width: 576px) {
+ 
+}
