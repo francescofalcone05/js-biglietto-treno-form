@@ -1,4 +1,5 @@
 const sendButton = document.getElementById('send')
+const cancButton = document.getElementById('canc')
 const standard = ('Standard')
 const junior = ('Junior')
 const pricePerKm = 0.21
@@ -45,7 +46,15 @@ if (ageRange == 1){
     finalPrice = ticketPriceKm * 0.40
 }
 
-document.getElementById('ticket-price').innerText = finalPrice
-
+document.getElementById('ticket-price').innerText = finalPrice.toFixed(2) + '€'
+console.log(finalPrice.toFixed(2))
 
 })
+
+//non funziona il button annulla
+
+cancButton.addEventListener('click', function() {
+
+    document.getElementById("canc").reset()
+})
+
